@@ -1,0 +1,111 @@
+{
+	"title": "JavaScript Quiz App",
+	"description": "Log in and take the 10 question quiz with Vue.js (Vue 3)",
+	"questions": [
+		{
+			"id": 1,
+			"title": "Inside which HTML element do we put the JavaScript?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "<js>" },
+				{ "id": 2, "text": "<scripting>" },
+				{ "id": 3, "text": "<javascript>" },
+				{ "id": 4, "text": "<script>", "correct": true }
+			]
+		},
+		{
+			"id": 2,
+			"title": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+			"description": "<p id=\"demo\">This is a demonstration.</p>",
+			"options": [
+				{ "id": 1, "text": "document.getElementByName(\"p\").innerHTML = \"Hello World!\";" },
+				{ "id": 2, "text": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";", "correct": true },
+				{ "id": 3, "text": "#demo.innerHTML = \"Hello World!\";" },
+				{ "id": 4, "text": "document.getElement(\"p\").innerHTML = \"Hello World!\";" }
+			]
+		},
+		{
+			"id": 3,
+			"title": "Where is the correct place to insert a JavaScript?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": " The <head> section", "correct": true },
+				{ "id": 2, "text": " The <body> section" },
+				{ "id": 3, "text": " Both the <head> section and the <body> section are correct" }
+			]
+		},
+		{
+			"id": 4,
+			"title": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "<script name=\"xxx.js\"></script>" },
+				{ "id": 2, "text": "<script src=\"xxx.js\"></script>", "correct": true },
+				{ "id": 3, "text": "<script href=\"xxx.js\"></script>" },
+				{ "id": 4, "text": "<script target=\"xxx.js\"></script>" }
+			]
+		},
+		{
+			"id": 5,
+			"title": "The external JavaScript file must contain the <script> tag.",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "True" },
+				{ "id": 2, "text": "False", "correct": true }
+			]
+		},
+		{
+			"id": 6,
+			"title": "How do you write \"Hello World\" in an alert box?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "msgBox(\"Hello World\");" },
+				{ "id": 2, "text": "msg(\"Hello World\");" },
+				{ "id": 3, "text": "alertBox(\"Hello World\");" },
+				{ "id": 4, "text": "alert(\"Hello World\");", "correct": true }
+			]
+		},
+		{
+			"id": 7,
+			"title": "How do you create a function in JavaScript?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "function:myFunction()" },
+				{ "id": 2, "text": "function = myFunction()" },
+				{ "id": 3, "text": "function myFunction()", "correct": true }
+			]
+		},
+		{
+			"id": 8,
+			"title": "How do you call a function named \"myFunction\"?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "call function myFunction()" },
+				{ "id": 2, "text": "call myFunction()" },
+				{ "id": 3, "text": "myFunction()", "correct": true }
+			]
+		},
+		{
+			"id": 9,
+			"title": "How to write an IF statement in JavaScript?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": "if i = 5 then" },
+				{ "id": 2, "text": "if (i == 5)", "correct": true },
+				{ "id": 3, "text": "if i == 5 then" },
+				{ "id": 4, "text": "if i = 5" }
+			]
+		},
+		{
+			"id": 10,
+			"title": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+			"description": "",
+			"options": [
+				{ "id": 1, "text": " if (i != 5)", "correct": true },
+				{ "id": 2, "text": " if (i <> 5)" },
+				{ "id": 3, "text": " if i =! 5 then" },
+				{ "id": 4, "text": " if i <> 5" }
+			]
+		}
+	]
+}
