@@ -1,15 +1,15 @@
 {
-	"printWidth": 80,
-	"tabWidth": 4,
-	"useTabs": true,
-	"singleQuote": true,
-	"endOfLine": "lf",
-	"trailingComma": "all",
+	"$schema": "https://json.schemastore.org/prettierrc",
 	"semi": false,
-    "bracketSameLine": false,
+	"tabWidth": 2,
+	"singleQuote": true,
+	"printWidth": 100,
+	"trailingComma": "all",
+	"endOfLine": "lf",
+	"bracketSameLine": false,
 	"proseWrap": "preserve",
-    "arrowParens": "always",
-    "htmlWhitespaceSensitivity": "ignore",
-    "vueIndentScriptAndStyle": false,
-    "singleAttributePerLine": false
+	"arrowParens": "always",
+	"htmlWhitespaceSensitivity": "ignore",
+	"vueIndentScriptAndStyle": false,
+	"singleAttributePerLine": false
 }
