@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: 'Quiz',
+  name: 'QuizComponent',
 
   emits: ['quizScore'],
 

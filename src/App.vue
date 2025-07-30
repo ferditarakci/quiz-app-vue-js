@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import metaData from './data/metaData.json'
+import metaData from 'src/data/MetaData.json'
 import Login from 'src/components/Login.vue'
 import Quiz from 'src/components/Quiz.vue'
 import QuizScore from 'src/components/QuizScore.vue'

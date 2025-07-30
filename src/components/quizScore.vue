@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'QuizScore',
+  name: 'QuizScoreComponent',
 
   props: ['scores'],
 
