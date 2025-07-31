@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import metaData from './data/MetaData.json'
+// import metaData from './data/MetaData.json'
 import Login from './components/Login.vue'
 import Quiz from './components/Quiz.vue'
 import QuizScore from './components/QuizScore.vue'
@@ -63,8 +63,8 @@ export default {
 
   data() {
     return {
-      title: metaData.title,
-      description: metaData.description,
+      title: '',
+      description: '',
       isLogin: false,
       isQuizEnd: false,
       fullname: '',

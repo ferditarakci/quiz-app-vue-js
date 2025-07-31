@@ -17,5 +17,8 @@
     "dotenv": "^16.5.0",
     "sass-embedded": "^1.89.2",
     "vite": "^7.0.4"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
