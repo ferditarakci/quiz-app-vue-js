@@ -41,9 +41,9 @@
 
 <script>
 // import metaData from './data/MetaData.json'
-import Login from './components/Login.vue'
-import Quiz from './components/Quiz.vue'
-import QuizScore from './components/QuizScore.vue'
+import Login from 'src/components/Login.vue'
+import Quiz from 'src/components/Quiz.vue'
+import QuizScore from 'src/components/QuizScore.vue'
 
 export default {
   name: 'QuizApp',
